@@ -19,5 +19,13 @@
   "devDependencies": {
     "@vercel/node": "^1.7.4",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunyvega/node-json-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nunyvega/node-json-api/issues"
+  },
+  "homepage": "https://github.com/nunyvega/node-json-api#readme"
 }
