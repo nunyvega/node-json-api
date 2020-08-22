@@ -32,7 +32,7 @@ const PORT = process.env.PORT ||5000;
 
 
 // Courses API routes
-app.use('/api/courses', require('./routes/api/courses'));
+app.use('/api/courses', require('./api/courses'));
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 

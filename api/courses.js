@@ -1,7 +1,7 @@
 const express = require('express');
 const uuid = require('uuid');
 const router = express.Router();
-const courses = require('../../Courses');
+const courses = require('../Courses');
 
 // this route gets all courses
 router.get('/', (req, res) => {
