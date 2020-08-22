@@ -6,13 +6,14 @@ const courses = require('./Courses');
 
 const app = express();
 
-
 // Init Middleware
 // app.use(logger);
 
 // Handlebars Middleware
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
+
 
 // Homepage route
 app.get('/', (req,res) => res.render('index', {
